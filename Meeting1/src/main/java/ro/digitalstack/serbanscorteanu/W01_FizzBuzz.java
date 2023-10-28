@@ -7,12 +7,14 @@ public class W01_FizzBuzz {
 
     public static void printFizzBuzz(int limit) {
         for (int i = 0; i < limit; i++) {
-            if (i % 3 == 0) {
-                System.out.println("Fizz");
+            if (i % 15 == 0) {
+                System.out.println("FizzBuzz ");
+            } else if (i % 3 == 0) {
+                System.out.println("Fizz ");
             } else if (i % 5 == 0) {
-                System.out.println("Buzz");
+                System.out.println("Buzz ");
             } else {
-                System.out.println(i);
+                System.out.println(i + " ");
             }
         }
     }
